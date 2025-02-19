@@ -19,7 +19,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    // Build the Docker image
+                    // Build the Docker Image
                     sh 'docker build -t prod/my-project .'
                 }
             }
